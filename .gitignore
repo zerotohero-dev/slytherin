@@ -57,3 +57,10 @@ typings/
 # dotenv environment variables file
 .env
 
+# IDE-Related
+.idea
+.history
+.vscode
+
+# Stupid Mac
+.DS_Store

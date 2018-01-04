@@ -1,0 +1,6 @@
+{
+  "extends": "jsbites/react",
+  "rules": {
+    "no-undef": "off"
+  }
+}

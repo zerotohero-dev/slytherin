@@ -1,0 +1,46 @@
+{
+  "name": "slytherin",
+  "version": "0.2.0",
+  "description": "A Global Drag Listener",
+  "main": "index.js",
+  "scripts": {
+    "serve-examples": "bin/serve-examples.sh",
+    "watch-examples": "bin/watch-examples.sh",
+    "precommit": "bin/precommit.sh",
+    "test": "bin/test.sh",
+    "lint": "bin/lint.sh"
+  },
+  "lint-staged": {
+    "*.{js,json,css,sass,scss,md}": ["prettier --write", "git add"]
+  },
+  "repository": "git@github.com:jsbites/slytherin.git",
+  "author": "Volkan Özçelik <me@volkan.io>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.1.2",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint": "^4.14.0",
+    "eslint-config-jsbites": "^2.1.2",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-react": "^7.5.1",
+    "http-server": "^0.10.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^6.0.0",
+    "prettier": "^1.9.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "remove-flow-types-loader": "^1.1.0",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "dombili": "^0.11.0"
+  }
+}

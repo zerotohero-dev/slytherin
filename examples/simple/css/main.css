@@ -1,0 +1,43 @@
+/*
+ *
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #cacaca;
+  font-size: 18px;
+  font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
+  line-height: 1.5em;
+}
+
+.box {
+  width: 450px;
+  background: #fff;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+}
+
+.box--shadow {
+  box-shadow: 2px 4px 4px 2px #999;
+}
+
+.box__header {
+  font-size: 32px;
+  padding: 16px 27px;
+  background: #dadada;
+  cursor: move;
+}
+
+.box__body {
+  padding: 8px 27px 12px;
+}
