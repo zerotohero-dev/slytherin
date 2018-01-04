@@ -64,3 +64,7 @@ typings/
 
 # Stupid Mac
 .DS_Store
+
+# Auto-generated
+examples/**/bundle.js
+examples/**/bundle.js.map
