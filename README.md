@@ -62,6 +62,7 @@ class SimpleApp extends Component {
   }
 
   componentDidMount() {
+ 
     // Start listening to drag events.
     start();
 
@@ -80,6 +81,7 @@ class SimpleApp extends Component {
   }
 
   componentWillUnmount() {
+
     // The component is doing a harakiri: 
     // Stop listening to drag events.
     stop();
