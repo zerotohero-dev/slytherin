@@ -47,6 +47,7 @@ class SimpleApp extends Component {
   }
 
   componentDidMount() {
+    // Start listening to drag events.
     start();
 
     const box = document.querySelector('.box');
@@ -55,6 +56,8 @@ class SimpleApp extends Component {
       return;
     }
 
+    // `initialze` gives the box super powers:
+    // makes it draggable.
     initialize(box, {
       dragClassName: 'box--shadow',
       dragHandleClassName: 'box__header'
@@ -62,6 +65,8 @@ class SimpleApp extends Component {
   }
 
   componentWillUnmount() {
+    // The component is doing a harakiri: 
+    // Stop listening to drag events.
     stop();
   }
 
