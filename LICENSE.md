@@ -1,7 +1,7 @@
 ```text
    _    _
 ,-(|)--(|)-.
-\_   ..   _/ Slyhterin: Framework-independent slithering utility.
+\_   ..   _/ Slytherin: Framework-independent slithering utility.
   \______/              Makes things draggable.
     V  V
 ```
