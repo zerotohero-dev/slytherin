@@ -29,12 +29,11 @@ In the end, it does what it says is does: Nothing more, nothing less.
 
 ## Installation
 
-`yarn add slyherin`
+`yarn add slytherin`
 
-or 
+or
 
 `npm install slytherin`
-
 
 ## Usage Example
 
@@ -45,8 +44,8 @@ The following shows a simple **React** component that uses `slytherin` to
 make a part of it **draggable**.
 
 > **Aside**
-> 
-> Slyherin provides **framework-agnostic** `initialize`, `start`, and `stop` endpoints, 
+>
+> Slytherin provides **framework-agnostic** `initialize`, `start`, and `stop` endpoints,
 > so you don’t have to use it with **React** — You can practically use it with
 > any front-end framework of your liking.
 
@@ -62,7 +61,6 @@ class SimpleApp extends Component {
   }
 
   componentDidMount() {
- 
     // Start listening to drag events.
     start();
 
@@ -81,8 +79,7 @@ class SimpleApp extends Component {
   }
 
   componentWillUnmount() {
-
-    // The component is doing a harakiri: 
+    // The component is doing a harakiri:
     // Stop listening to drag events.
     stop();
   }
