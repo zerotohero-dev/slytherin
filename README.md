@@ -35,6 +35,12 @@ For additional examples with comments and documentation
 The following shows a simple **React** component that uses `slytherin` to
 make a part of it **draggable**.
 
+> **Aside**
+> 
+> Slyherin provides **framework-agnostic** `initialize, `start`, and `stop` endpoints, 
+> so you don’t have to use it with **React** — You can practically use it with
+> any front-end framework of your liking.
+
 ```javascript
 import { start, stop, initialize } from 'slytherin';
 
