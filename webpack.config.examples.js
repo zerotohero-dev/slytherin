@@ -10,7 +10,7 @@ module.exports = {
   output: {
     path: join(__dirname, 'examples'),
     filename: 'simple/js/bundle.js',
-    pathinfo: true,
+    pathinfo: process.env.NODE_ENV !== 'production',
     publicPath: '/'
   },
   devtool: 'source-map',
@@ -18,13 +18,11 @@ module.exports = {
     rules: [
       {
         test: /\.js$/,
-        enforce: 'pre',
-        use: ['remove-flow-types-loader'],
-        include: [join(__dirname, 'src'), join(__dirname, 'lib')]
-      },
-      {
-        test: /\.js$/,
-        include: [join(__dirname, 'src')],
+        include: [
+          join(__dirname, 'src'),
+          join(__dirname, 'lib'),
+          join(__dirname, 'node_modules/dombili')
+        ],
         use: ['babel-loader']
       }
     ]

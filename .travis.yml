@@ -13,17 +13,6 @@
  # Send your comments, suggestions, and feedback to me@volkan.io
  #
 
-[ignore]
-./node_modules
-
-[include]
-./lib/**/*
-./src/**/*
-
-[libs]
-
-[lints]
-
-[options]
-
-[strict]
+language: node_js
+node_js:
+  - "8.1.3"
