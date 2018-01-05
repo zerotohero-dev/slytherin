@@ -46,7 +46,7 @@ make a part of it **draggable**.
 
 > **Aside**
 > 
-> Slyherin provides **framework-agnostic** `initialize, `start`, and `stop` endpoints, 
+> Slyherin provides **framework-agnostic** `initialize`, `start`, and `stop` endpoints, 
 > so you don’t have to use it with **React** — You can practically use it with
 > any front-end framework of your liking.
 
