@@ -16,7 +16,7 @@
 
 Yes, there are many great drag&drop libraries out there; so why a new one?
 Well, I created this library mostly for educational purposes. — There will
-be a screencast about it soon in [ByteSized.TV](https://bytesized.tv).
+be a screencast about it soon in [**ByteSized.TV**](https://bytesized.tv).
 
 My goal was to show that creating a drag utility is not that hard, and can
 be done under, say, fifty lines of code.
