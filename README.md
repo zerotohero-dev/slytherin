@@ -27,6 +27,15 @@ scratch my own itch **:)**
 
 In the end, it does what it says is does: Nothing more, nothing less.
 
+## Installation
+
+`yarn add slyherin`
+
+or 
+
+`npm install slytherin`
+
+
 ## Usage Example
 
 For additional examples with comments and documentation
