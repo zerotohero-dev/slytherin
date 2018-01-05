@@ -15,4 +15,4 @@
 
 // @flow
 
-export { initialize, start, stop } from './lib';
+export { init, start, stop } from './lib';

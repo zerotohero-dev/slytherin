@@ -25,7 +25,7 @@
 
 // The following import statement is equivalent to:
 // `import { start, stop, initialize } from 'slytherin';`
-import { start, stop, initialize } from '../../..';
+import { start, stop, init } from '../../..';
 
 import React, { Component } from 'react';
 import { render } from 'react-dom';
@@ -57,19 +57,20 @@ class SimpleApp extends Component<{}> {
     // If you `initialize` something else, then you’ll make that thing
     // draggable. — Since, in this example, we only have a single element
     // that does not change, we’ll just initialize it and call it a day.
-    initialize(box, {
-      // Optional: CSS class name to assign to the draggable element while
-      // it is being dragged.
+    //
+    // dragClassName: Optional: CSS class name to assign to the draggable element while
+    // it is being dragged.
+    //
+    // dragHandleClassName: Optional: If not given, the entire element (`box`) will be considered
+    // a drag target. — If provided, the drag target will be limited only to the
+    // owner of the class name.
+    //
+    // The class name of the element that you can initiate the drag action by
+    // doing a touch or mousedown gesture.
+    // If you touch outside the drag handle, your drag action
+    // will not be registered, and dragging will not start.
+    init(box, {
       dragClassName: 'box--shadow',
-
-      // Optional: If not given, the entire element (`box`) will be considered
-      // a drag target. — If provided, the drag target will be limited only to the
-      // owner of the class name.
-      //
-      // The class name of the element that you can initiate the drag action by
-      // doing a touch or mousedown gesture.
-      // If you touch outside the drag handle, your drag action
-      // will not be registered, and dragging will not start.
       dragHandleClassName: 'box__header'
     });
   }

@@ -45,12 +45,12 @@ make a part of it **draggable**.
 
 > **Aside**
 >
-> Slytherin provides **framework-agnostic** `initialize`, `start`, and `stop` endpoints,
+> Slytherin provides **framework-agnostic** `init`, `start`, and `stop` endpoints,
 > so you don’t have to use it with **React** — You can practically use it with
 > any front-end framework of your liking.
 
 ```javascript
-import { start, stop, initialize } from 'slytherin';
+import { start, stop, init } from 'slytherin';
 
 import React, { Component } from 'react';
 import { render } from 'react-dom';
@@ -70,9 +70,9 @@ class SimpleApp extends Component {
       return;
     }
 
-    // `initialze` gives the box super powers:
+    // `init` gives the box super powers:
     // makes it draggable.
-    initialize(box, {
+    init(box, {
       dragClassName: 'box--shadow',
       dragHandleClassName: 'box__header'
     });

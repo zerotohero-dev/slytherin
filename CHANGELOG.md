@@ -6,6 +6,12 @@
     V  V
 ```
 
+## **slytherin** (_v0.4.0_)
+
+* Added better type annotations.
+* Minor fixes.
+* Renamed `initialize` to `init` — Shorter: better.
+
 ## **slytherin** (_v0.3.0_)
 
 * Minimally-working version.
