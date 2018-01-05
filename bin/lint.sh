@@ -15,6 +15,14 @@
 # Send your comments, suggestions, and feedback to me@volkan.io
 #
 
+flow
+
+if [ $? -eq 1 ]
+then
+   echo "Fix flow failures."
+   exit 1
+fi
+
 eslint .
 
 if [ $? -eq 1 ]
