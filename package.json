@@ -1,6 +1,6 @@
 {
   "name": "slytherin",
-  "version": "0.4.1",
+  "version": "0.4.3",
   "description": "A Global Drag Listener",
   "main": "index.js",
   "scripts": {
@@ -13,6 +13,7 @@
   "lint-staged": {
     "*.{js,json,css,sass,scss,md}": ["prettier --write", "git add"]
   },
+  "files": ["lib/", "index.js"],
   "repository": "git@github.com:jsbites/slytherin.git",
   "author": "Volkan Özçelik <me@volkan.io>",
   "license": "MIT",
@@ -42,5 +43,27 @@
   },
   "dependencies": {
     "dombili": "^0.11.0"
-  }
+  },
+  "keywords": [
+    "byte",
+    "byte-sized javascript",
+    "byte-sized",
+    "bytesized.tv",
+    "demos",
+    "education",
+    "javascript",
+    "learning",
+    "podcast",
+    "react",
+    "redux",
+    "screencast",
+    "tutorials",
+    "vidcast",
+    "videocast",
+    "videos",
+    "drag",
+    "dom",
+    "slide",
+    "ui"
+  ]
 }
