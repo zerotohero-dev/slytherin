@@ -13,7 +13,7 @@
 
 [tests]: https://img.shields.io/travis/jsbites/slytherin.svg
 [tests-url]: https://travis-ci.org/jsbites/slytherin
-[npm-url]: https://www.npmjs.com/packageslytherin
+[npm-url]: https://www.npmjs.com/package/slytherin
 [npm]: https://img.shields.io/npm/v/slytherin.svg
 [deploy]: https://img.shields.io/github/last-commit/jsbites/slytherin.svg?label=last%20deployed
 [deploy-url]: https://github.com/jsbites/slytherin/
