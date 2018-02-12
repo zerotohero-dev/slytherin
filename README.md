@@ -1,3 +1,8 @@
+[![tests][tests]][tests-url]
+[![deploy][deploy]][deploy-url]
+[![npm][npm]][npm-url]
+[![license][license]][license-url]
+
 ```text
    _    _
 ,-(|)--(|)-.
@@ -5,6 +10,15 @@
   \______/              Makes things draggable.
     V  V
 ```
+
+[tests]: https://img.shields.io/travis/jsbites/slytherin.svg
+[tests-url]: https://travis-ci.org/jsbites/slytherin
+[npm-url]: https://www.npmjs.com/packageslytherin
+[npm]: https://img.shields.io/npm/v/slytherin.svg
+[deploy]: https://img.shields.io/github/last-commit/jsbites/slytherin.svg?label=last%20deployed
+[deploy-url]: https://github.com/jsbites/slytherin/
+[license]: https://img.shields.io/npm/l/slytherin.svg
+[license-url]: https://www.npmjs.com/package/slytherin
 
 ## Demo
 
